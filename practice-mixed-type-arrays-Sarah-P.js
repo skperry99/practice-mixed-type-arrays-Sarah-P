@@ -23,3 +23,13 @@ Task 3: Modify the Profile. Make the following updates:
 Task 4: Display the Updated Profile. Log the entire updated profile to verify the
 changes.
 */
+
+let profileArr = ["Yvonne", 49, true, "St. Louis", ["painting", "running", "swimming"]];
+console.log(profileArr);
+
+console.log(profileArr[0], profileArr[4][1]);
+
+profileArr[1] = 52;
+profileArr[4][3] = "sky diving";
+
+console.log(profileArr);
